@@ -22,5 +22,11 @@
             android:onClick="submit"
             android:id="@+id/submitButton" android:layout_gravity="left|center_vertical"/>
 
+    <ImageView android:layout_width="match_parent" android:layout_height="30dp"
+             android:id="@+id/image"
+             android:background="#ff4565"
+             android:onClick="callCamera"
+            />
+
 </LinearLayout>
 
