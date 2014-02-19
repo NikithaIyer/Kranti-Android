@@ -34,6 +34,7 @@ public class CaptureIssueActivity extends Activity {
         issueRepository.createIssue(issueTitle,issueDescription);
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
+
     }
 
     public void callCamera(View view) {
